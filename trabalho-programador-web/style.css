@@ -1,0 +1,79 @@
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+}
+nav{
+    color:black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 100px;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    background-color: blueviolet;
+}
+.lateral{
+    color:black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 30px;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    background-color: pink;
+    position: absolute;
+    top: auto;
+    right: 0;
+    width: 20%;
+    height: 620px;
+    margin: 1%;
+}
+.cabecalho{
+    color:black; 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 30px;
+    font-size: xx-large;
+    text-align: left;
+    font-weight: bold;
+    background-color: lightgreen;
+    width: 74%;
+    height: 300px;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-left: 1.5%;
+}
+.section1, .section2{
+    color:black; 
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 30px;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    background-color: plum;
+    margin-left: 1.5%;
+    width: 36%;
+    height:300px;
+}
+footer {
+    color:black;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 30px;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(179, 216, 16);
+    margin-top: 1%;
+    justify-self: flex-end;
+}
